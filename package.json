@@ -3,14 +3,17 @@
   "version": "1.0.0",
   "description": "Toolbox for Siemens PCS7 through export/import files",
   "license": "MIT",
-  "author": "Pau Guimerà",
-  "type": "commonjs",
+  "author": "pguim",
   "main": "main.js",
   "scripts": {
-    "test": "electron ."
+    "start": "electron ."
   },
   "devDependencies": {
-    "electron": "36.2.0"
+    "electron": "36.2.0",
+    "standard": "^17.1.2"
+  },
+  "eslintConfig": {
+    "extends": "standard"
   },
   "dependencies": {
     "pcs7toolbox": "file:"

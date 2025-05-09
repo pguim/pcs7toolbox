@@ -1,0 +1,4 @@
+:root {
+  --scheme: light dark;
+  color-scheme: var(--scheme);
+}
