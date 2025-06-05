@@ -1,10 +1,11 @@
 {
-  "name": "PCS7Toolbox",
+  "name": "pcs7toolbox",
   "version": "1.0.0",
   "description": "Toolbox for Siemens PCS7 through export/import files",
   "license": "MIT",
   "author": "pguim",
-  "main": "main.js",
+  "exports": "./main.js",
+  "type": "module",
   "scripts": {
     "start": "electron ."
   },
@@ -16,7 +17,7 @@
     "extends": "standard"
   },
   "dependencies": {
-    "pcs7toolbox": "file:",
-    "PCS7Toolbox": "file:"
+    "electron-store": "^10.0.1",
+    "pcs7toolbox": "file:"
   }
 }

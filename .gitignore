@@ -137,3 +137,5 @@ dist
 
 # package-lock
 package-lock.json
+
+.data.js
